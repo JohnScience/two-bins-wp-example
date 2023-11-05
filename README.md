@@ -11,3 +11,7 @@ Running binary 2:
 ```console
 cargo run --bin bin2
 ```
+
+## Warning
+
+[Feature unification](https://doc.rust-lang.org/cargo/reference/features.html#feature-unification) can cause troubles if your binaries depend on libraries with conflicting [features](https://doc.rust-lang.org/cargo/reference/features.html).
